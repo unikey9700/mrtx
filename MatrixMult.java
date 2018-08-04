@@ -19,8 +19,8 @@ public class MatrixMult{
         //int[][] matrix = new int[A.length][B[0].length];
         int[][] B2nd = new int[B[0].length][B.length];
 				if(A[0].length != B.length){
-						System.out.println("Invalid input.");
-						System.exit(0);
+					System.out.println("Invalid input.");
+					System.exit(0);
 				}
        for(int i = 0; i < B[0].length; i ++){  //int[] aline = new int[B.length];
             for(int k = 0; k < B.length; k ++){
